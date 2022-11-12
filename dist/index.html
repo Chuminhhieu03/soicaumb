@@ -1679,14 +1679,17 @@
           <div class="bg-[#dc0201] p-[10px] font-bold text-white text-[20px]">
             Soi Cầu Xổ Số
           </div>
-          <div class="p-[10px]">
+          <div class="box-mini read-box p-[10px]">
             <p class="m-[3px] text-[#ff3d00] font-bold text-3xl text-center">
               Soi Cầu
             </p>
             <div class="flex justify-center">
               <img src="./img/star.png" />
             </div>
-            <div class="para1">
+            <div
+              id="parahide"
+              class="para1 max-h-[420px] truncate relative p-[10px]"
+            >
               <strong><a class="text-[red]" href="#">Soi cầu</a> xổ số</strong>
               tại soicaumb là 1 trong những diễn đàn gia lưu thảo luận số chính
               xác và tin cậy. Tất cả thành viên tham gia diễn đàn đều chủ yếu
@@ -1730,8 +1733,7 @@
               <ul class="my-[17px]">
                 <li>* Nuôi lô khung 3 ngày chính xác</li>
                 <li>* Soi cầu bạch thủ, Soi cầu song thủ, lô 2 nháy</li>
-              </ul>
-              <!-- <li>* Tham khảo các bộ số,Chạm XSMB do ADMIN đưa ra</li>
+                <li>* Tham khảo các bộ số,Chạm XSMB do ADMIN đưa ra</li>
                 <li>* Chia sẻ về tổng dàn đề, đặc biệt tốt nhất</li>
                 <li>* Kết quả xổ số miền bắc chính xác nhất</li>
                 <li>* Danh sách Sổ mơ lô đề</li>
@@ -1767,7 +1769,19 @@
                 Chúng tôi sẽ thường xuyên cập nhật KQXS cũng như dự đoán Soi cầu
                 mỗi ngày tại đây, Các bạn đừng quên theo dõi hằng ngày để tham
                 khảo những con số chuẩn nhất nhé.
-              </p> -->
+              </p>
+              <div
+                class="box-transparent w-full absolute bottom-0 left-0 m-0 pt-[50px] pb-[15px] bg-gradient-to-b from-[transparent] to-[#fff]"
+              ></div>
+            </div>
+            <div
+              class="p-[10px] border-t-[1px] border-solid border-[#d9d9d9] flex justify-center"
+            >
+              <button
+                class="hide-click bg-[red] text-sm text-white uppercase rounded-[150px] px-4 leading-9"
+              >
+                xem
+              </button>
             </div>
           </div>
         </div>
@@ -1936,5 +1950,6 @@
         </div>
       </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
