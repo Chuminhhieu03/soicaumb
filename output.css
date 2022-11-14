@@ -827,16 +827,16 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-\[150px\] {
+  border-radius: 150px;
+}
+
 .rounded-\[6px\] {
   border-radius: 6px;
 }
 
 .rounded-\[15\%\] {
   border-radius: 15%;
-}
-
-.rounded-\[150px\] {
-  border-radius: 150px;
 }
 
 .border-\[1px\] {
@@ -933,6 +933,11 @@ video {
   border-color: rgb(236 239 241 / var(--tw-border-opacity));
 }
 
+.border-\[\#d9d9d9\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(217 217 217 / var(--tw-border-opacity));
+}
+
 .border-\[\#0c4a86\] {
   --tw-border-opacity: 1;
   border-color: rgb(12 74 134 / var(--tw-border-opacity));
@@ -946,11 +951,6 @@ video {
 .border-\[\#d8e2e7\] {
   --tw-border-opacity: 1;
   border-color: rgb(216 226 231 / var(--tw-border-opacity));
-}
-
-.border-\[\#d9d9d9\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(217 217 217 / var(--tw-border-opacity));
 }
 
 .border-l-\[\#ff0200\] {
@@ -1076,6 +1076,10 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\/dist\/img\/bg-imgae\.jpeg\'\)\] {
+  background-image: url('/dist/img/bg-imgae.jpeg');
+}
+
 .from-\[transparent\] {
   --tw-gradient-from: transparent;
   --tw-gradient-to: rgb(0 0 0 / 0);
@@ -1186,20 +1190,20 @@ video {
   padding-left: 0.75rem;
 }
 
-.pt-\[10px\] {
-  padding-top: 10px;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .pt-\[50px\] {
   padding-top: 50px;
 }
 
 .pb-\[15px\] {
   padding-bottom: 15px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
@@ -1516,4 +1520,35 @@ video {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.focus-within\:border-2:focus-within {
+  border-width: 2px;
+}
+
+.focus-within\:border-solid:focus-within {
+  border-style: solid;
+}
+
+.focus-within\:border-\[\#f07917\]:focus-within {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 121 23 / var(--tw-border-opacity));
+}
+
+.focus-within\:bg-\[red\]:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.focus\:border-2:focus {
+  border-width: 2px;
+}
+
+.focus\:border-solid:focus {
+  border-style: solid;
+}
+
+.focus\:border-\[\#f07917\]:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 121 23 / var(--tw-border-opacity));
 }    
